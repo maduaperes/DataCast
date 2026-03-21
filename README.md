@@ -1,35 +1,24 @@
 # DataCast
 
-**Meu espaço para explorar e praticar tipos de dados e conversão de valores em Python.**
+**Meu espaço pessoal para explorar e praticar Python.**
 
 ---
 
 ## Sobre este repositório
 
-Este é meu laboratório pessoal, onde eu exploro e pratico conceitos de **valores primitivos em Python**, suas **representações** e como **converter entre diferentes tipos de dados**.
+Este é meu laboratório de estudos, onde armazeno diversos **projetos, experimentos e exercícios em Python**.  
+O objetivo é aprender, testar ideias e registrar o que vou praticando ao longo do tempo.
 
-Aqui eu trabalho com:  
-- Números: **Decimal, Binário, Octal, Hexadecimal**  
-- Strings e conversão entre números e texto  
-- Conversão de tipos em Python: `int()`, `float()`, `str()`, etc.  
-- Concatenar variáveis e texto em `print()`  
-- Operações básicas com entrada do usuário  
+Aqui você encontrará exemplos variados, que podem incluir:  
+- Pequenos programas e scripts  
+- Experimentos com lógica, loops e funções  
+- Exercícios de manipulação de dados  
+- Qualquer projeto simples que eu use para praticar Python  
 
 ---
 
-## Exemplos
+## Como usar
 
-```python
-# Convertendo entre tipos
-num = 3
-num_float = float(num)   # Converte inteiro 3 para float 3.0
-num_str = str(num)       # Converte inteiro 3 para string "3"
-
-# Print com concatenação
-nome = input("Digite seu nome: ")
-print("Olá " + nome + "! Bem-vindo(a) ao Python!")
-
-# Operações com input
-valor_unit = float(input("Informe o valor unitário: "))
-quantidade = int(input("Informe a quantidade: "))
-print("O valor total é:", valor_unit * quantidade)
+1. Clone o repositório:
+```bash
+git clone https://github.com/seuusuario/DataCast.git
