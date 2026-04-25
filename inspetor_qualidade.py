@@ -45,3 +45,15 @@ if (diametro_real >= diametro_ideal - tolerancia) and (
         print("❌ Comprimento: REPROVADO (Muito Curto).")
         print("=" * 50)
         print("🔴 Status Final: REFUGO. PEÇA PERDIDA.")
+
+        # Se já reprovou logo de cara na 1a barreira (Diâmetro):
+else:
+    print("❌ Diâmetro: REPROVADO.")
+    # Se o diâmetro já está ruim, nem perdemos tempo medindo comprimento
+    if diametro_real > diametro_ideal + tolerancia:
+        print(
+            "🟡 Status Final: RETRABALHO. VOLTAR PARA O PASSE DE ACABAMENTO NO TORNO."
+        )
+    else:
+        print("🔴 Status Final: REFUGO. DIÂMETRO ABAIXO DA MEDIDA, PERDA TOTAL.")
+    print("=" * 50)
